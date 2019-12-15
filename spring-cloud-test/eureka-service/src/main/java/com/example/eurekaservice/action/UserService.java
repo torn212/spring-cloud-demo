@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-@EnableEurekaClient
 public class UserService {
     @Autowired
     private RestTemplate restTemplate;
