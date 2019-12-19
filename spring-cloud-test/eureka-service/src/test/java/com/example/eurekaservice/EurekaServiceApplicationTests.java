@@ -14,6 +14,11 @@ class EurekaServiceApplicationTests {
     @Test
     void contextLoads() {
         userService.hello();
+        userService.hello();
+        userService.hello();
+        userService.hello();
+        userService.hello();
+        userService.hello();
     }
 
 }

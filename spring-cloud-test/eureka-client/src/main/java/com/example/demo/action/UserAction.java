@@ -8,6 +8,7 @@ public class UserAction {
 
     @GetMapping("/user/hello")
     public String hello() {
+        System.out.println("调用了hello接口");
         return "lk";
     }
 }
