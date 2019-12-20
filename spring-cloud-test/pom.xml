@@ -6,6 +6,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>eureka-client</module>
+        <module>eureka-service</module>
         <module>eureka-server</module>
+        <module>feign-interface</module>
     </modules>
 </project>

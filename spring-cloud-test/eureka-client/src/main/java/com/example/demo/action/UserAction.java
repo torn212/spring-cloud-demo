@@ -1,12 +1,12 @@
 package com.example.demo.action;
 
-import org.springframework.web.bind.annotation.GetMapping;
+import com.example.feigninterface.service.UserService;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class UserAction {
+public class UserAction implements UserService {
 
-    @GetMapping("/user/hello")
+    @Override
     public String hello() {
         System.out.println("调用了hello接口");
         return "lk";
