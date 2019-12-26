@@ -18,6 +18,15 @@
             <charset>utf-8</charset>
         </encoder>
     </appender>
+
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>===%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger Line:%-3L - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
     <root level="INFO">
         <appender-ref ref="ROLLING"/>
     </root>

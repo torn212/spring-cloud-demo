@@ -1,2 +1,12 @@
 server:
   port: 9000
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://lk1.com:8080/eureka/,http://lk2.com:8081/eureka/,http://lk3.com:8082/eureka/
+
+spring:
+  application:
+    name: admin

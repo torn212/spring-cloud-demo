@@ -16,8 +16,8 @@ public class BeanConfiguration {
         return new RestTemplate();
     }
 
-    @Bean
-    public IRule ribbonRule() {
-        return new WeightedResponseTimeRule();
-    }
+//    @Bean
+//    public IRule ribbonRule() {
+//        return new WeightedResponseTimeRule();
+//    }
 }
