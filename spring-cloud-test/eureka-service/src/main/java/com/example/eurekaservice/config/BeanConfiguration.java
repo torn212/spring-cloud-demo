@@ -18,6 +18,6 @@ public class BeanConfiguration {
 
 //    @Bean
 //    public IRule ribbonRule() {
-//        return new WeightedResponseTimeRule();
+//        return new RandomRule();
 //    }
 }
